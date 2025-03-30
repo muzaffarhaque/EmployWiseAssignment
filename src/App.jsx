@@ -18,6 +18,10 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
     const router = createBrowserRouter([
+        {
+            path: "/",
+            element: <Login/>
+        },
      
         {
             path: "/login",
